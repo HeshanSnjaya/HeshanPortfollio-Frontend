@@ -27,7 +27,7 @@ export const About = () => {
               problems through innovative IT solutions. Passionate about
               creating new applications that enhance people's lives and
               committed to making a meaningful impact. Eager to collaborate with
-              dynamicteams, embrace new technologies, and contribute with
+              dynamic teams, embrace new technologies, and contribute with
               adaptability, enthusiasm,and a strong work ethic.
             </p>
           </div>
