@@ -14,10 +14,13 @@ import Django from "../assets/Django.png";
 
 export const Skills = () => {
   return (
-    <div name="Skills" className="bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full md:h-screen bg-[#0a192f] text-gray-300"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
+        <div className="pt-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Interested Technologies
           </p>
@@ -55,7 +58,7 @@ export const Skills = () => {
             <p className="my-4">MySql</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-md">
-            <img className="w-20 mx-auto" src={Java} alt="Java icon" />
+            <img className="w-[75px] mx-auto" src={Java} alt="Java icon" />
             <p className="my-4">Java</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-md">
